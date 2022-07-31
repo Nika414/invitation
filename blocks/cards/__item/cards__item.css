@@ -1,0 +1,18 @@
+.cards__item {
+    width: 320px;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+.cards__item:hover .cards__overlay {
+    transform: translateY(0);
+}
+
+.cards__item:hover .cards__header {
+    transform: translateY(0);
+    color: white;
+    padding-top: 10px;
+    font-weight: normal;
+  }

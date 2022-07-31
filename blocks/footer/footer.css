@@ -1,0 +1,10 @@
+.footer {
+    min-height: 100px;
+    position: relative;
+}
+
+@media screen and (max-width:460px) {
+    .footer {
+        min-height: 50px;
+    }
+}

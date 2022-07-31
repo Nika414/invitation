@@ -1,0 +1,28 @@
+.popup__container {
+    background-color: black;
+    width: 50vw;
+    position: relative;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to left top, #cf6cc9 10%, #4c4ab2 90%);
+    border-image-slice: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+        0 0 10px white,
+        0 0 20px #cf6cc9,
+        0 0 30px #4c4ab2;
+}
+
+@media screen and (max-width:600px) {
+    .popup__container {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .popup__container {
+        width: 75vw;
+    }
+}

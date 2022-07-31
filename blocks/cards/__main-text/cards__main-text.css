@@ -1,0 +1,10 @@
+.cards__main-text {
+    padding: 0 2em 50px;
+    margin: 0;
+    color: white;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 24px;
+    text-align: center;
+  }

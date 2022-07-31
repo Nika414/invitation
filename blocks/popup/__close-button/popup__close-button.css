@@ -1,0 +1,14 @@
+.popup__close-button {
+    border: none;
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    background-image: url(../../../images/iconmonstr-x-mark-thin.svg);
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+  }
+  
+  .popup__close-button:hover {
+    cursor: pointer;
+  }

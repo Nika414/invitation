@@ -1,0 +1,13 @@
+.form__button_disabled {
+    background-color: black;
+    box-shadow: none;
+    border: 1px solid;
+    border-color: rgba(184, 155, 155, 0.3);
+    color: rgba(156, 116, 116, 0.3)
+}
+
+.form__button_disabled:hover {
+    transform: none;
+    cursor: unset;
+    box-shadow: none;
+}

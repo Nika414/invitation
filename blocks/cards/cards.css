@@ -1,0 +1,18 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    width: 80vw;
+    list-style-type: none;
+    padding: 0;
+    column-gap: calc((80vw - 960px)/2);
+    margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .cards {
+        column-gap: 60px;
+    }
+}

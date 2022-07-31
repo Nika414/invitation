@@ -1,0 +1,81 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/inter.css);
+@import url(./blocks/root/root.css);
+
+/* header */
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+
+/* Миксы */
+@import url(./blocks/section__title/section__title.css);
+@import url(./blocks/im-in-button/im-in-button.css);
+@import url(./blocks/main-paragraph/main-paragraph.css);
+
+/* Карточки */
+@import url(./blocks/cards/cards.css);
+@import url(./blocks/cards/__item/cards__item.css);
+@import url(./blocks/cards/__image/cards__image.css);
+@import url(./blocks/cards/__overlay/cards__overlay.css);
+@import url(./blocks/cards/__header/cards__header.css);
+@import url(./blocks/cards/__main-text/cards__main-text.css);
+
+/* Секция invitation */
+@import url(./blocks/invitation/invitation.css);
+@import url(./blocks/invitation/__text-container/invitation__text-container.css);
+
+/* Секция photo-grid */
+@import url(./blocks/photo-grid/__container/photo-grid__container.css);
+@import url(./blocks/photo-grid/__item/photo-grid__item.css);
+
+/* Секция plan */
+@import url(./blocks/plan/plan.css);
+
+/* Секция location*/
+@import url(./blocks/location/location.css);
+@import url(./blocks/location/__pic/location__pic.css);
+
+/* Footer */
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__copyrights/footer__copyrights.css);
+
+/* Popup */
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/__container/popup__container.css);
+@import url(./blocks/popup/__close-button/popup__close-button.css);
+@import url(./blocks/popup/_hidden/popup_hidden.css);
+
+/* Форма */
+
+@import url(./blocks/form/form.css);
+@import url(./blocks/form/__title/form__title.css);
+@import url(.//blocks/form/__subtitle/form__subtitle.css);
+@import url(./blocks/form/__container/form__container.css);
+@import url(./blocks/form/__container/_hidden/form__container_hidden.css);
+@import url(./blocks/form/__input/form__input.css);
+@import url(./blocks/form/__button/form__button.css);
+@import url(./blocks/form/__button/_disabled/form__button_disabled.css);
+@import url(./blocks/form/__error-text/form__error-text.css);
+@import url(./blocks/form/__error-text/_active/form__error-text_active.css);
+@import url(./blocks/form/__complition/form__complition.css);
+@import url(./blocks/form/__complition/_active/form__complition_active.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

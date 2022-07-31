@@ -1,0 +1,18 @@
+.header__logo {
+    width: 80px;
+    height: 80px;
+    margin: 30px 0 -30px 5%;
+    background: url(../../../images/iconmonstr-triangle-lined.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow:
+        0 0 10px white,
+        0 0 20px #cf6cc9,
+        0 0 60px #4c4ab2;
+}
+
+@media screen and (max-width:460px) {
+    .header__logo {
+        margin: 30px 0 -15px 5%;
+    }
+}

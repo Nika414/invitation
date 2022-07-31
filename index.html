@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ivitation</title>
+  <link rel="shortcut icon" href="./images/iconmonstr-triangle-lined.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="root">
+  <header class="header">
+    <div class="header__logo">
+    </div>
+  </header>
+  <main class="content">
+    <section class="invitation">
+      <h1 class="invitation__title section__title">You're invited</h1>
+      <div class="invitation__text-container">
+        <p class="invitation__main-paragraph main-paragraph">
+          Неон. Басы. Блики. Танец. <br> Это - атмосфера раскрепощенности, свободы ума и тела. Это - свобода мысли,
+          свобода движения. Это - твои друзья и близкие. Это - именно то, что тебе нужно.</p>
+      </div>
+      <button class="invitation__im-in-button im-in-button">I'm in!</button>
+      <p class="invitation__main-paragraph main-paragraph">В ночь с 9 на 10 июля ты сможешь отдаться ритамам synthwave,
+        techno и new wave, попробовать авторские коктейли от Anthony Davydoff, встретить старых знакомых и узнать о себе
+        больше.</p>
+    </section>
+
+    <section class="photo-grid">
+      <h2 class="photo-grid__title section__title">Inspiration</h2>
+      <div class="photo-grid__container">
+        <img src="./images/corey-saldana-TFtyWvy31i4-unsplash (1) (1).jpg" alt="Девушки в стиле киберпанк" class="photo-grid__item">
+        <img src="./images/donny-jiang-kgtgmExJ4jk-unsplash (1) (1).jpg" alt="Девушка в стильных очках" class="photo-grid__item">
+        <img src="./images/h-heyerlein-ndja2LJ4IcM-unsplash (1) (1).jpg" alt="Девушка в неоновой краске" class="photo-grid__item">
+        <img src="./images/alexander-london-lx9RWIg1Rdg-unsplash (1) (1).jpg" alt="Мужчина в шляпе" class="photo-grid__item">
+        <img src="./images/alexander-popov-vCbKwN2IXT4-unsplash (1) (1).jpg" alt="Неоновая вечеринка" class="photo-grid__item">
+        <img src="./images/wilmer-martinez-Lme2Ye2jVo8-unsplash (1) (1).jpg" alt="Девушка в терминаторских очках" class="photo-grid__item">
+      </div>
+    </section>
+    <section class="plan">
+      <h2 class="plan__title section__title">What's the plan?</h2>
+      <p class="plan__main-paragraph main-paragraph">Начало 9 июля 23:00</p>
+      <p class="plan__main-paragraph main-paragraph">DC/FC</p>
+      </p>
+      <ul class="cards">
+        <li class="cards__item">
+          <img src="./images/norbert-toth-Ny5gvGTi_d0-unsplash (1).jpg" alt="" class="cards__image">
+          <div class="cards__overlay">
+            <h3 class="cards__header">00:00</h3>
+            <p class="cards__main-text">Супер-джем от Sergey S.</p>
+          </div>
+        </li>
+        <li class="cards__item">
+          <img src="./images/alec-favale-MZJOBxOXbt0-unsplash (1).jpg" alt="" class="cards__image">
+          <div class="cards__overlay">
+            <h3 class="cards__header">01:00</h3>
+            <p class="cards__main-text">Субботний рейв с MonicaR</p>
+          </div>
+        </li>
+        <li class="cards__item">
+          <img src="./images/mukul-kumar-qNfOG2a4bIY-unsplash (1) (1).jpg" alt="" class="cards__image">
+          <div class="cards__overlay">
+            <h3 class="cards__header">02:30</h3>
+            <p class="cards__main-text">Взрывное techno под визуальную инсталляцию от Maracush</p>
+          </div>
+        </li>
+      </ul>
+      </div>
+    </section>
+    <section class="location">
+      <h2 class="location__title section__title">Location</h2>
+      <p class="location__main-paragraph main-paragraph">St.Petersburg</p>
+      <p class="location__main-paragraph main-paragraph">Набережная Обводного канала 136, loft place</p>
+      <button class="location__im-in-button im-in-button">Now I'm totally in!</button>
+      <img src="./images/artem-bryzgalov-cEeyvWbBzmc-unsplash (1).jpg" alt="" class="location__pic">
+
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__copyrights">&copy;2022. Veronica Paist</p>
+  </footer>
+  <div class="popup popup__hidden">
+    <div class="popup__container">
+      <button class="popup__close-button"></button>
+      <div class="form__container">
+        <h3 class="form__title">Заполни форму</h3>
+        <h4 class="form__subtitle">и мы свяжемся с тобой</h4>
+        <form method="post" class="form" novalidate>
+          <input type="text" class="form__input" name="name" placeholder="Имя" minlength="2" maxlength="25" required>
+          <span class="form__error-text name-input-text">Ошибка</span>
+          <input type="email" class="form__input" name="email" placeholder="E-mail" required>
+          <span class="form__error-text email-input-text">ааааа</span>
+          <input type="text" class="form__input" name="phone" placeholder="Номер телефона" required>
+          <span class="form__error-text phone-input-text">ааааакпофщоыщуу</span>
+          <button class="form__button" type="submit" disabled>Sign me in!</button>
+        </form>
+      </div>
+      <span class="form__complition">Мы с тобой свяжемся!</span>
+    </div>
+  </div>
+  <script type="module" src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+.main-paragraph {
+    font-family: 'PoiretOne-Regular';
+    width: 70%;
+    margin: 0;
+    text-align: center;
+    font-size: 34px;
+    color: white;
+    padding: 0;
+}
+
+@media screen and (max-width:915px) {
+    .main-paragraph {
+        width: 90%;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .main-paragraph {
+        font-size: 20px;
+    }
+}

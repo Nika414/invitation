@@ -1,0 +1,17 @@
+.footer__copyrights {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:460px) {
+    .footer__copyrights {
+        top: 10px;
+        right: 7px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
