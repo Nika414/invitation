@@ -9,6 +9,8 @@
 
 **Ссылка на GitHub Pages**
 
+* [Ссылка на GitHub Pages](https://nika414.github.io/invitation/)
+
 **Использованные технологии**
 * HTML
 * CSS
