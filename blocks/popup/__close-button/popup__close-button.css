@@ -1,11 +1,11 @@
 .popup__close-button {
     border: none;
     position: absolute;
-    top: -35px;
-    right: -35px;
+    top: -36px;
+    right: -50px;
     background-image: url(../../../images/iconmonstr-x-mark-thin.svg);
-    width: 24px;
-    height: 24px;
+    width: 35px;
+    height: 35px;
     background-color: transparent;
     background-repeat: no-repeat;
   }
